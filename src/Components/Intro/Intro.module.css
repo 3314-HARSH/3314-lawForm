@@ -1,0 +1,22 @@
+.intro {
+  display: flex;
+  padding: 8rem 0;
+  grid-column: center-start/center-end;
+  align-items: center;
+}
+.intro__main {
+  font-size: 2.5rem;
+  width: 60%;
+  line-height: 1.6;
+}
+.intro__sub {
+  padding: 4rem;
+  border-left: 1px solid #ffffff4d;
+}
+.intro__mainPara {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+.intro__para {
+  opacity: 0.3;
+}

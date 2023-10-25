@@ -1,0 +1,36 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+.happyClient {
+  grid-column: center-start/center-end;
+}
+.happyClient__carousel {
+  display: flex;
+  gap: 5rem;
+}
+.happyClient__header {
+  display: flex;
+  margin-bottom: 4rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.happyClient__headingText {
+  font-size: 2.5rem;
+  line-height: 1.6;
+  width: 30%;
+}
+.happyClient__carouselBtnLeft {
+  padding: 2rem;
+  background-color: white;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  margin-right: 1.5rem;
+}
+.happyClient__carouselBtnRight {
+  padding: 2rem;
+  background-color: #e3b748;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  margin-right: 1.5rem;
+}

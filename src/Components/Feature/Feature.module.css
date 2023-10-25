@@ -1,0 +1,41 @@
+.feature {
+  grid-column: center-start/center-end;
+  padding: 8rem 0;
+}
+.feature__headingText {
+  font-size: 2.5rem;
+  margin-bottom: 3.5rem;
+  text-align: center;
+}
+.feature__cardBox {
+  display: flex;
+  gap: 4rem;
+}
+.feature__card {
+  border: 1px solid #ffffff4d;
+  border-radius: 7px;
+  padding: 1.5rem 2rem;
+  background-color: var(--color-black);
+}
+.feature__success {
+  margin: 1.5rem 0;
+  font-size: 1.6rem;
+}
+.feature__btn {
+  margin: 1.5rem 0;
+  background-color: #e3b748;
+  border: none;
+  border-radius: 20px;
+  padding: 1.5rem 2rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+.feature__text {
+  opacity: 0.3;
+}
+.feature__imgWrapper {
+  background-color: var(--color-white);
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 100px;
+}

@@ -1,0 +1,29 @@
+.team {
+  padding: 8rem 0;
+  grid-column: center-start/center-end;
+}
+.team__headingText {
+  font-size: 2.5rem;
+  margin-bottom: 3.5rem;
+  text-align: center;
+}
+.team__teamMates {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12rem;
+  row-gap: 8rem;
+}
+.team__teamMember {
+  padding: 1.5rem 10.5rem 1.5rem 2.5rem;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  border: 1px solid var(--color-black);
+}
+.team__img {
+  border-radius: 100%;
+}
+.team__highCases {
+  background-color: #e3b748;
+}

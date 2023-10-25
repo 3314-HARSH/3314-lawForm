@@ -1,0 +1,34 @@
+.navbar__psudo {
+  grid-row: 1/2;
+  grid-column: full-start/full-end;
+  z-index: -1;
+  background-color: var(--color-black);
+}
+.navbar {
+  grid-row: 1/2;
+  grid-column: center-start/center-end;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 2rem 0;
+  background-color: var(--color-black);
+}
+.navbar__logo {
+  width: 14rem;
+  height: 3rem;
+}
+.navbar__items {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+}
+/* .navbar__item {
+} */
+.navbar__btn {
+  border-style: none;
+  border: 1px solid var(--color-white);
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 1rem;
+}
